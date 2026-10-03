@@ -216,6 +216,8 @@
   "plugins/mbair-engineering/skills/speech/references/voice-directions.md": "2df92f260a5498f2ae8f7ab4687d8d8e06ad7fb1196922232293c25929f21259",
   "plugins/mbair-engineering/skills/speech/references/voiceover.md": "b7e2d5257e5bb417677d640125b88f16534187f8fe11e53c3398e7cff7fca0f5",
   "plugins/mbair-engineering/skills/speech/scripts/text_to_speech.py": "9357be201641acbd103f73ca53f4de186e85ec48f045f65e1913f60e953f497e",
+  "plugins/mbair-engineering/skills/verification-before-completion/LICENSE": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+  "plugins/mbair-engineering/skills/verification-before-completion/SKILL.md": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
   "plugins/mbair-engineering/skills/webapp-testing/LICENSE.txt": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
   "plugins/mbair-engineering/skills/webapp-testing/SKILL.md": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2",
   "plugins/mbair-engineering/skills/webapp-testing/examples/console_logging.py": "ea46877289acb82da7e7ce59d0bc37c8977cd57e2a006d0c88d7a1c625bf95da",

@@ -2,7 +2,7 @@
 
 Private baseline for mbair's Codex development on WSL, NAS and future VPS hosts. Source of truth: this Git repository, not a live shared NAS folder.
 
-The package contains 55 user SKILL.md definitions in 50 top-level folders, with their scripts, references, assets and existing license files. It includes Angular, PrimeNG, Ouroboros, Reticle, review, testing and design workflows. Codex-owned `.system` skills come from Codex itself. Skill origins are recorded in `skill-sources.json`; external plugin IDs and observed versions are in `environment.json`.
+The package contains 56 user SKILL.md definitions in 51 top-level folders, with their scripts, references, assets and existing license files. It includes Angular, PrimeNG, Ouroboros, Reticle, review, testing and design workflows. Codex-owned `.system` skills come from Codex itself. Skill origins are recorded in `skill-sources.json`; external plugin IDs and observed versions are in `environment.json`.
 
 ## Install on Linux / WSL / NAS
 
@@ -72,3 +72,7 @@ SHA-256 locks detect drift; they don't establish publisher authenticity. Only in
 Upstream docs: [skills](https://learn.chatgpt.com/docs/build-skills), [private plugin marketplaces](https://developers.openai.com/plugins/build/plugins).
 
 PrimeNG MCP 22.1.2 is installed in the locked tool prefix and can run as `primeng-mcp` without an npx download at client startup. Use the shared launcher PATH. Large Angular dev builds on the NAS use `NODE_OPTIONS=--max-old-space-size=4096`; this does not reserve 4 GB for every process.
+
+## Evidence before development completion claims
+
+`verification-before-completion` from [obra/superpowers](https://github.com/obra/superpowers/tree/8ca22dba9a94f28898bbce59f2537ff4d87c747d/skills/verification-before-completion) requires fresh verification evidence before claiming that work is complete, a bug is fixed, tests pass, or a build succeeds. It is discoverable for these development tasks and can be invoked explicitly as `$verification-before-completion`. It does not establish factual accuracy for arbitrary answers, and its effectiveness in this environment has not been benchmarked. The original skill is preserved unchanged with its MIT license; its upstream commit and entrypoint hash are recorded in `skill-sources.json`.

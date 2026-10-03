@@ -248,5 +248,14 @@
     "skill": "angular-input-performance",
     "source": "wsl-user",
     "entry_sha256": "e0b52ecc97dfe77ee37afd89433b6a3c1d945595ddf3e3ca22c30cab42741c93"
+  },
+  {
+    "skill": "verification-before-completion",
+    "source": "github-upstream",
+    "repository": "https://github.com/obra/superpowers",
+    "path": "skills/verification-before-completion",
+    "commit": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+    "license": "MIT",
+    "entry_sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3"
   }
 ]
