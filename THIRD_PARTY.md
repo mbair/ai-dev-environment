@@ -8,4 +8,9 @@ Codex's bundled system skills and remote/account plugin caches are not vendored.
 
 ## Superpowers verification skill
 
-`verification-before-completion` is imported unchanged from `obra/superpowers` at commit `8ca22dba9a94f28898bbce59f2537ff4d87c747d` (`skills/verification-before-completion`). Copyright (c) 2025 Jesse Vincent; MIT license. The upstream license is retained beside its `SKILL.md`. Only this standalone skill is included.
+`verification-before-completion` is imported unchanged from `obra/superpowers` at commit `8ca22dba9a94f28898bbce59f2537ff4d87c747d` (`skills/verification-before-completion`). Copyright (c) 2025 Jesse Vincent; MIT license. The upstream license is retained beside its `SKILL.md`. The standalone verification and review-reception skills are included; the full Superpowers plugin is not installed.
+
+## Additional debugging and review skills
+
+- `diagnosing-bugs`: imported unchanged from `mattpocock/skills` at commit `d81f3a183412e71a5b1e84ca21bc1a35eea03a60`, path `skills/engineering/diagnosing-bugs`. Copyright (c) 2026 Matt Pocock; MIT license retained in the skill folder.
+- `receiving-code-review`: imported unchanged from `obra/superpowers` at commit `8ca22dba9a94f28898bbce59f2537ff4d87c747d`, path `skills/receiving-code-review`. Copyright (c) 2025 Jesse Vincent; MIT license retained in the skill folder.

@@ -257,5 +257,23 @@
     "commit": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
     "license": "MIT",
     "entry_sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3"
+  },
+  {
+    "skill": "diagnosing-bugs",
+    "source": "github-upstream",
+    "repository": "https://github.com/mattpocock/skills",
+    "path": "skills/engineering/diagnosing-bugs",
+    "commit": "d81f3a183412e71a5b1e84ca21bc1a35eea03a60",
+    "license": "MIT",
+    "entry_sha256": "9168404abda0967a5d32977e3498cd95fda6807018852f3de736a78357c82b40"
+  },
+  {
+    "skill": "receiving-code-review",
+    "source": "github-upstream",
+    "repository": "https://github.com/obra/superpowers",
+    "path": "skills/receiving-code-review",
+    "commit": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+    "license": "MIT",
+    "entry_sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438"
   }
 ]

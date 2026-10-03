@@ -2,7 +2,7 @@
 
 Private baseline for mbair's Codex development on WSL, NAS and future VPS hosts. Source of truth: this Git repository, not a live shared NAS folder.
 
-The package contains 56 user SKILL.md definitions in 51 top-level folders, with their scripts, references, assets and existing license files. It includes Angular, PrimeNG, Ouroboros, Reticle, review, testing and design workflows. Codex-owned `.system` skills come from Codex itself. Skill origins are recorded in `skill-sources.json`; external plugin IDs and observed versions are in `environment.json`.
+The package contains 58 user SKILL.md definitions in 53 top-level folders, with their scripts, references, assets and existing license files. It includes Angular, PrimeNG, Ouroboros, Reticle, review, testing and design workflows. Codex-owned `.system` skills come from Codex itself. Skill origins are recorded in `skill-sources.json`; external plugin IDs and observed versions are in `environment.json`.
 
 ## Install on Linux / WSL / NAS
 
@@ -76,3 +76,10 @@ PrimeNG MCP 22.1.2 is installed in the locked tool prefix and can run as `primen
 ## Evidence before development completion claims
 
 `verification-before-completion` from [obra/superpowers](https://github.com/obra/superpowers/tree/8ca22dba9a94f28898bbce59f2537ff4d87c747d/skills/verification-before-completion) requires fresh verification evidence before claiming that work is complete, a bug is fixed, tests pass, or a build succeeds. It is discoverable for these development tasks and can be invoked explicitly as `$verification-before-completion`. It does not establish factual accuracy for arbitrary answers, and its effectiveness in this environment has not been benchmarked. The original skill is preserved unchanged with its MIT license; its upstream commit and entrypoint hash are recorded in `skill-sources.json`.
+
+## Debugging and review feedback
+
+- `$diagnosing-bugs` from `mattpocock/skills` builds a reproducible signal for hard bugs and performance regressions, tests competing hypotheses, and verifies the fix against the original scenario. Its human-in-the-loop template is retained for cases requiring manual reproduction.
+- `$receiving-code-review` from `obra/superpowers` checks review suggestions against actual codebase behavior and existing decisions before implementing them.
+
+Both are discoverable when their described tasks arise. Original instructions and resources are retained with MIT licenses and pinned provenance in `skill-sources.json`. Installation does not execute the diagnostic template or change project code. Repository instructions, user authorization, and host execution policies continue to take precedence over imported workflow examples.
