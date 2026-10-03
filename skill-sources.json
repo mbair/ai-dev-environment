@@ -275,5 +275,19 @@
     "commit": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
     "license": "MIT",
     "entry_sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438"
+  },
+  {
+    "skill": "property-based-testing",
+    "source": "github-upstream-adapted",
+    "repository": "https://github.com/trailofbits/skills",
+    "path": "plugins/property-based-testing/skills/property-based-testing",
+    "commit": "82fe8226252622fa807643bdca1710901198553a",
+    "license": "CC-BY-SA-4.0",
+    "author": "Trail of Bits",
+    "modifications": [
+      "Removed Claude-specific effort: low frontmatter; original retained in references/upstream-skill.md"
+    ],
+    "upstream_entry_sha256": "9448cacb65c6237a7c22dc59602667177ecae405524079ae9ff92240590b995a",
+    "entry_sha256": "c53e9a19586dab94c48a806d9353878b2a1afb476a79f235e09001398b2ffb7d"
   }
 ]

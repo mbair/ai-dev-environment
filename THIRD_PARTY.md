@@ -14,3 +14,7 @@ Codex's bundled system skills and remote/account plugin caches are not vendored.
 
 - `diagnosing-bugs`: imported unchanged from `mattpocock/skills` at commit `d81f3a183412e71a5b1e84ca21bc1a35eea03a60`, path `skills/engineering/diagnosing-bugs`. Copyright (c) 2026 Matt Pocock; MIT license retained in the skill folder.
 - `receiving-code-review`: imported unchanged from `obra/superpowers` at commit `8ca22dba9a94f28898bbce59f2537ff4d87c747d`, path `skills/receiving-code-review`. Copyright (c) 2025 Jesse Vincent; MIT license retained in the skill folder.
+
+## Trail of Bits property-based testing
+
+`property-based-testing` by Trail of Bits is imported from `trailofbits/skills` at commit `82fe8226252622fa807643bdca1710901198553a`, path `plugins/property-based-testing/skills/property-based-testing`, under CC-BY-SA-4.0. The license and attribution are retained in its `LICENSE` and `NOTICE.md`. The Codex adaptation removes only `effort: low` from the entrypoint; the unmodified original is retained as `references/upstream-skill.md`. The adaptation remains under CC-BY-SA-4.0. Other references and assets are unchanged.

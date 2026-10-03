@@ -2,7 +2,7 @@
 
 Private baseline for mbair's Codex development on WSL, NAS and future VPS hosts. Source of truth: this Git repository, not a live shared NAS folder.
 
-The package contains 58 user SKILL.md definitions in 53 top-level folders, with their scripts, references, assets and existing license files. It includes Angular, PrimeNG, Ouroboros, Reticle, review, testing and design workflows. Codex-owned `.system` skills come from Codex itself. Skill origins are recorded in `skill-sources.json`; external plugin IDs and observed versions are in `environment.json`.
+The package contains 59 user SKILL.md definitions in 54 top-level folders, with their scripts, references, assets and existing license files. It includes Angular, PrimeNG, Ouroboros, Reticle, review, testing and design workflows. Codex-owned `.system` skills come from Codex itself. Skill origins are recorded in `skill-sources.json`; external plugin IDs and observed versions are in `environment.json`.
 
 ## Install on Linux / WSL / NAS
 
@@ -83,3 +83,7 @@ PrimeNG MCP 22.1.2 is installed in the locked tool prefix and can run as `primen
 - `$receiving-code-review` from `obra/superpowers` checks review suggestions against actual codebase behavior and existing decisions before implementing them.
 
 Both are discoverable when their described tasks arise. Original instructions and resources are retained with MIT licenses and pinned provenance in `skill-sources.json`. Installation does not execute the diagnostic template or change project code. Repository instructions, user authorization, and host execution policies continue to take precedence over imported workflow examples.
+
+## Property-based testing
+
+`$property-based-testing` from Trail of Bits helps select meaningful invariants, generate constrained inputs, review weak or vacuous tests, and classify minimized failing inputs. It supports JavaScript/TypeScript through fast-check as well as other languages. The skill is installed as guidance only; no application dependencies are added. The original resources, attribution and CC-BY-SA-4.0 license are preserved. The sole Codex adaptation removes the Claude-specific `effort: low` field; the original entrypoint is in `references/upstream-skill.md`, and both entrypoint hashes are recorded in `skill-sources.json`. Upstream model-specific eval reports are retained as upstream documentation, not as evidence of local Codex effectiveness.
