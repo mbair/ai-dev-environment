@@ -17,4 +17,4 @@ Codex's bundled system skills and remote/account plugin caches are not vendored.
 
 ## Trail of Bits property-based testing
 
-`property-based-testing` by Trail of Bits is imported from `trailofbits/skills` at commit `82fe8226252622fa807643bdca1710901198553a`, path `plugins/property-based-testing/skills/property-based-testing`, under CC-BY-SA-4.0. The license and attribution are retained in its `LICENSE` and `NOTICE.md`. The Codex adaptation removes only `effort: low` from the entrypoint; the unmodified original is retained as `references/upstream-skill.md`. The adaptation remains under CC-BY-SA-4.0. Other references and assets are unchanged.
+`property-based-testing` by Trail of Bits is imported from `trailofbits/skills` at commit `82fe8226252622fa807643bdca1710901198553a`, path `plugins/property-based-testing/skills/property-based-testing`, under CC-BY-SA-4.0. The license and attribution are retained in its `LICENSE` and `NOTICE.md`. The Codex adaptation removes only `effort: low` from the entrypoint; the unmodified original is retained as `UPSTREAM-SKILL.md`. The adaptation remains under CC-BY-SA-4.0. Other references and assets are unchanged.

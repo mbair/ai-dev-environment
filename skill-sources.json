@@ -285,7 +285,7 @@
     "license": "CC-BY-SA-4.0",
     "author": "Trail of Bits",
     "modifications": [
-      "Removed Claude-specific effort: low frontmatter; original retained in references/upstream-skill.md"
+      "Removed Claude-specific effort: low frontmatter; original retained in UPSTREAM-SKILL.md"
     ],
     "upstream_entry_sha256": "9448cacb65c6237a7c22dc59602667177ecae405524079ae9ff92240590b995a",
     "entry_sha256": "c53e9a19586dab94c48a806d9353878b2a1afb476a79f235e09001398b2ffb7d"
