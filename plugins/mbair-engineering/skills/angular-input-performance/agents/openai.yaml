@@ -1,0 +1,4 @@
+interface:
+  display_name: "Angular Input Performance"
+  short_description: "Prevent typing lag in Angular and PrimeNG forms"
+  default_prompt: "Use $angular-input-performance to prevent unnecessary keyboard handling and diagnose typing lag while preserving form, scanner, session, and accessibility behavior."

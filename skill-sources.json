@@ -243,5 +243,10 @@
     "skill": "speech",
     "source": "windows-user",
     "entry_sha256": "e71cd464d98745e8d51a6cc3b59630a34dbd2553e9db9cdf8dc59247abc754f4"
+  },
+  {
+    "skill": "angular-input-performance",
+    "source": "wsl-user",
+    "entry_sha256": "e0b52ecc97dfe77ee37afd89433b6a3c1d945595ddf3e3ca22c30cab42741c93"
   }
 ]

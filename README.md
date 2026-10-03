@@ -2,7 +2,7 @@
 
 Private baseline for mbair's Codex development on WSL, NAS and future VPS hosts. Source of truth: this Git repository, not a live shared NAS folder.
 
-The initial package contains 54 user SKILL.md definitions in 49 top-level folders, with their scripts, references, assets and existing license files. It includes Angular, PrimeNG, Ouroboros, Reticle, review, testing and design workflows. Codex-owned `.system` skills come from Codex itself. Skill origins are recorded in `skill-sources.json`; external plugin IDs and observed versions are in `environment.json`.
+The package contains 55 user SKILL.md definitions in 50 top-level folders, with their scripts, references, assets and existing license files. It includes Angular, PrimeNG, Ouroboros, Reticle, review, testing and design workflows. Codex-owned `.system` skills come from Codex itself. Skill origins are recorded in `skill-sources.json`; external plugin IDs and observed versions are in `environment.json`.
 
 ## Install on Linux / WSL / NAS
 

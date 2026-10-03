@@ -44,6 +44,8 @@
   "plugins/mbair-engineering/skills/angular-developer/references/tailwind-css.md": "bdb952d0dd2d415560a796ecaf843cacff5ac20d8ef961eaaf75656fef9b9263",
   "plugins/mbair-engineering/skills/angular-developer/references/template-driven-forms.md": "52e83e576b0c6dc05f854e903c4cfda1222bcd55c50ddee07344d1e53d02c1df",
   "plugins/mbair-engineering/skills/angular-developer/references/testing-fundamentals.md": "8f48c2392d99487934edf977c0d1b87a4e83ff9761db493bbcccc10f574bcb5a",
+  "plugins/mbair-engineering/skills/angular-input-performance/SKILL.md": "e0b52ecc97dfe77ee37afd89433b6a3c1d945595ddf3e3ca22c30cab42741c93",
+  "plugins/mbair-engineering/skills/angular-input-performance/agents/openai.yaml": "8846498e6fb8aba723ffec43f22226a939843a77820df9e7875e53493345fce3",
   "plugins/mbair-engineering/skills/angular-official-best-practices/SKILL.md": "c89e93e9b6fec73efb9687886602a3c381d3fa64a8647e0774bb004c2992be1b",
   "plugins/mbair-engineering/skills/brand-website-storytelling/SKILL.md": "502a8b5544d21421a9d5fb7c189521528ab11dfaadcf7ad109b188cdbba22d18",
   "plugins/mbair-engineering/skills/brand-website-storytelling/agents/openai.yaml": "fff4782af46fe47039b0c9c159c56caf59c3c4f4d344eccfc16b65f9bc88e57e",
