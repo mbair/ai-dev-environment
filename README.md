@@ -11,7 +11,7 @@ Prerequisites: Git, Python 3.11+, Node 24.14.0 with npm 11.9.0, compiler/Python 
 ```bash
 gh repo clone mbair/ai-dev-environment
 cd ai-dev-environment
-git checkout v0.1.0
+git checkout v0.1.1
 bash scripts/setup.sh         # preview
 bash scripts/setup.sh --apply
 bash scripts/doctor.sh
@@ -24,7 +24,7 @@ The default deployment uses direct skill copies. The same skills are available a
 For another client with plugin installation:
 
 ```bash
-codex plugin marketplace add mbair/ai-dev-environment --ref v0.1.0
+codex plugin marketplace add mbair/ai-dev-environment --ref v0.1.1
 codex plugin add mbair-engineering@mbair-dev
 ```
 
@@ -70,3 +70,5 @@ python3 scripts/environment.py verify
 SHA-256 locks detect drift; they don't establish publisher authenticity. Only install a trusted repository commit. Maintainers intentionally regenerate `skills.lock.json` after reviewed skill changes using `write_lock` in `scripts/environment.py`, then run tests and verification and create a new release tag.
 
 Upstream docs: [skills](https://learn.chatgpt.com/docs/build-skills), [private plugin marketplaces](https://developers.openai.com/plugins/build/plugins).
+
+PrimeNG MCP 22.1.2 is installed in the locked tool prefix and can run as `primeng-mcp` without an npx download at client startup. Use the shared launcher PATH. Large Angular dev builds on the NAS use `NODE_OPTIONS=--max-old-space-size=4096`; this does not reserve 4 GB for every process.

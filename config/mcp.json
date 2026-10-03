@@ -1,9 +1,48 @@
 {
   "mcpServers": {
-    "graft": {"command": "npx", "args": ["--yes", "@nanonets/graft@0.18.0", "mcp"]},
-    "reticle": {"command": "npx", "args": ["--yes", "@reticlehq/server@3.5.0", "mcp"]},
-    "codebase-memory-mcp": {"command": "codebase-memory-mcp", "args": []},
-    "ouroboros": {"command": "uvx", "args": ["--isolated", "--python", ">=3.12", "--from", "ouroboros-ai[mcp]==0.55.4", "ouroboros", "mcp"], "env": {"OUROBOROS_RUNTIME": "codex", "OUROBOROS_CLI_BACKEND": "codex"}},
-    "openaiDeveloperDocs": {"url": "https://developers.openai.com/mcp"}
+    "graft": {
+      "command": "npx",
+      "args": [
+        "--yes",
+        "@nanonets/graft@0.18.0",
+        "mcp"
+      ]
+    },
+    "reticle": {
+      "command": "npx",
+      "args": [
+        "--yes",
+        "@reticlehq/server@3.5.0",
+        "mcp"
+      ]
+    },
+    "codebase-memory-mcp": {
+      "command": "codebase-memory-mcp",
+      "args": []
+    },
+    "ouroboros": {
+      "command": "uvx",
+      "args": [
+        "--isolated",
+        "--python",
+        ">=3.12",
+        "--from",
+        "ouroboros-ai[mcp]==0.55.4",
+        "ouroboros",
+        "mcp",
+        "serve"
+      ],
+      "env": {
+        "OUROBOROS_AGENT_RUNTIME": "codex",
+        "OUROBOROS_LLM_BACKEND": "codex"
+      }
+    },
+    "openaiDeveloperDocs": {
+      "url": "https://developers.openai.com/mcp"
+    },
+    "primeng": {
+      "command": "primeng-mcp",
+      "args": []
+    }
   }
 }

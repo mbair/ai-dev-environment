@@ -1,12 +1,13 @@
 {
   "name": "mbair-dev-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "engines": {
     "node": "24.14.0"
   },
   "dependencies": {
+    "@nanonets/graft": "0.18.0",
     "@openai/codex": "0.159.2",
-    "@nanonets/graft": "0.18.0"
+    "@primeng/mcp": "22.1.2"
   }
 }

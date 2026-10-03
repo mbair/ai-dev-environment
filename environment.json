@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "executables": {
     "node": {
       "command": [
@@ -101,7 +101,8 @@
   "mcp_packages": {
     "graft": "0.18.0",
     "reticle": "3.5.0",
-    "ouroboros": "0.55.4"
+    "ouroboros": "0.55.4",
+    "primeng": "22.1.2"
   },
   "profiles": {
     "nas": {
