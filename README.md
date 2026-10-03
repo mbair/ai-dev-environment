@@ -1,5 +1,7 @@
 # Shared AI development environment
 
+The read-only [Reserve diagnostics MCP](mcp/reserve-diagnostics/README.md) supports NFCReserve and AlpenReserve as independent projects, with explicit project/tenant selection and manual file comparison. Install its locked dependencies through setup; register it separately against each host's private profile using `scripts/register-reserve-mcp.py`. Existing project processes and client MCP settings are preserved.
+
 Private baseline for mbair's Codex development on WSL, NAS and future VPS hosts. Source of truth: this Git repository, not a live shared NAS folder.
 
 The package contains 60 user SKILL.md definitions in 55 top-level folders, with their scripts, references, assets and existing license files. It includes Angular, PrimeNG, Ouroboros, Reticle, review, testing and design workflows. Codex-owned `.system` skills come from Codex itself. Skill origins are recorded in `skill-sources.json`; external plugin IDs and observed versions are in `environment.json`.

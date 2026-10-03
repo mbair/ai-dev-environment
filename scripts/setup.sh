@@ -12,6 +12,7 @@ if [[ "$(node --version)" != "v24.14.0" ]]; then
   exit 1
 fi
 npm ci --prefix "$root/tools" --no-audit --no-fund
+npm ci --prefix "$root/mcp/reserve-diagnostics" --no-audit --no-fund
 python3 "$root/scripts/environment.py" install-skills --apply
 "$root/tools/node_modules/.bin/codex" plugin marketplace add "$root"
 printf '\nPrivate marketplace registered. Direct skill installation is active; do not also enable the skill plugin unless removing those direct copies to avoid duplicate discovery.\n'

@@ -96,7 +96,8 @@
     "reticle",
     "codebase-memory-mcp",
     "ouroboros",
-    "openaiDeveloperDocs"
+    "openaiDeveloperDocs",
+    "reserve-diagnostics"
   ],
   "mcp_packages": {
     "graft": "0.18.0",

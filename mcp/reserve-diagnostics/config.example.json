@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "projects": {
+    "nfcreserve": {
+      "root": "/absolute/path/to/NFCreserve",
+      "areas": { "backend": "backend/backendhotelcontroller", "frontend": "frontend/Zichy2/src" },
+      "repositories": { "backend": "backend/backendhotelcontroller", "frontend": "frontend/Zichy2" },
+      "scopes": {}
+    },
+    "alpenreserve": {
+      "root": "/absolute/path/to/alpenreserve",
+      "areas": { "backend": "apps/api", "frontend": "apps/web/src" },
+      "repositories": { "application": "." },
+      "scopes": {}
+    }
+  }
+}

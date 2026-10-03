@@ -1,0 +1,12 @@
+<evaluation>
+  <qa_pair><question>In the isolated evaluation fixture, discover both projects and compare backend finance.js in both transfer directions. Which project currently has this file? Respond with the project identifier only.</question><answer>nfcreserve</answer></qa_pair>
+  <qa_pair><question>Discover each project's scope and inspect channels 1 and 2. Which project has the highest items_failed sum across its returned recent records? Respond with the project identifier only.</question><answer>alpenreserve</answer></qa_pair>
+  <qa_pair><question>Compare backend channel.js, worker.js and frontend form.ts between the two projects. Does the shared channel file imply all three files are byte-identical? Respond True or False.</question><answer>False</answer></qa_pair>
+  <qa_pair><question>Check both projects' source availability and compare frontend form.ts and input.ts. Which of these files differs between projects? Respond with its relative filename only.</question><answer>input.ts</answer></qa_pair>
+  <qa_pair><question>Discover the projects, then inspect their Git statuses. How many independent Git repositories belong to the project containing backend finance.js? Respond with an integer only.</question><answer>2</answer></qa_pair>
+  <qa_pair><question>Discover AlpenReserve's scope, read its API health and channel 3 sync records. Do those observations prove its worker is alive and processing jobs? Respond True or False.</question><answer>False</answer></qa_pair>
+  <qa_pair><question>Read the failed sync records for NFCReserve channel 1 and AlpenReserve channel 2. Do the returned tools disclose raw error messages or summary payloads? Respond True or False.</question><answer>False</answer></qa_pair>
+  <qa_pair><question>Discover NFCReserve's scope, successfully inspect channel 1, then request general API health for that same project/scope. What error code does health return? Respond with the code only.</question><answer>HEALTH_UNSUPPORTED</answer></qa_pair>
+  <qa_pair><question>Discover both scopes and inspect channels 1, 2 and 3 in both projects. Sum items_failed across every returned recent record. Respond with an integer only; do not claim a historical backlog total.</question><answer>7</answer></qa_pair>
+  <qa_pair><question>Compare backend channel.js and finance.js from NFCReserve to AlpenReserve, then reverse the comparison. What comparison classification applies to finance.js in both directions? Respond with the classification only.</question><answer>missing</answer></qa_pair>
+</evaluation>

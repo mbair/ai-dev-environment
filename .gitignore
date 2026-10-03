@@ -5,3 +5,4 @@ __pycache__/
 .env.*
 reports/
 *.log
+mcp/reserve-diagnostics/node_modules/
