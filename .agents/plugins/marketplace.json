@@ -1,0 +1,20 @@
+{
+  "name": "mbair-dev",
+  "interface": {
+    "displayName": "Mbair development environment"
+  },
+  "plugins": [
+    {
+      "name": "mbair-engineering",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mbair-engineering"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

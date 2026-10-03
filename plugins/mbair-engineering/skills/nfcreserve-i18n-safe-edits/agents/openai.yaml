@@ -1,0 +1,4 @@
+interface:
+  display_name: "NFC Reserve i18n Safe Edits"
+  short_description: "Prevent missing and misplaced translation keys"
+  default_prompt: "Use $nfcreserve-i18n-safe-edits to add or repair NFC Reserve translations safely."

@@ -1,0 +1,6 @@
+{
+  "name": "mbair-engineering",
+  "version": "0.1.0",
+  "description": "Shared Angular, PrimeNG, review, testing, Ouroboros and design workflows.",
+  "skills": "./skills/"
+}

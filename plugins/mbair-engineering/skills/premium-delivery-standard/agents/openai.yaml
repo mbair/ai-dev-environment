@@ -1,0 +1,4 @@
+interface:
+  display_name: "Premium Delivery Standard"
+  short_description: "Enforce high-quality, clarification-first delivery."
+  default_prompt: "Apply a premium delivery standard: clarify unclear requirements, avoid mediocre output, verify carefully, and only hand over work that is coherent, polished, and production-minded."

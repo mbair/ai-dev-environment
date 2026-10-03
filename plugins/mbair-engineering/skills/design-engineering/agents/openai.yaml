@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Engineering"
+  short_description: "Build polished, specific, accessible web interfaces"
+  default_prompt: "Use $design-engineering to design and build a polished, distinctive, accessible web interface."

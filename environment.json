@@ -1,0 +1,119 @@
+{
+  "version": "0.1.0",
+  "executables": {
+    "node": {
+      "command": [
+        "node",
+        "--version"
+      ],
+      "version": "24.14.0"
+    },
+    "npm": {
+      "command": [
+        "npm",
+        "--version"
+      ],
+      "version": "11.9.0"
+    },
+    "codex": {
+      "command": [
+        "codex",
+        "--version"
+      ],
+      "version": "0.159.2"
+    },
+    "graft": {
+      "command": [
+        "graft",
+        "--version"
+      ],
+      "version": "0.18.0"
+    },
+    "codebase-memory": {
+      "command": [
+        "codebase-memory-mcp",
+        "--version"
+      ],
+      "version": "0.8.1"
+    },
+    "uv": {
+      "command": [
+        "uv",
+        "--version"
+      ],
+      "version": "0.11.14"
+    }
+  },
+  "plugins": [
+    {
+      "name": "primeng",
+      "id": "primeng@primeui",
+      "version": "1.0.0"
+    },
+    {
+      "name": "github",
+      "id": "github@openai-curated-remote",
+      "version": "0.1.12-5f7cd798dc99"
+    },
+    {
+      "name": "google-calendar",
+      "id": "google-calendar@openai-curated-remote",
+      "version": "1.2.7"
+    },
+    {
+      "name": "app-6a3293e129088191abf0875820e839da",
+      "id": "app-6a3293e129088191abf0875820e839da@openai-curated-remote",
+      "version": "2.1.0"
+    },
+    {
+      "name": "codex-security",
+      "id": "codex-security@openai-curated-remote",
+      "version": "0.1.31"
+    },
+    {
+      "name": "openai-templates",
+      "id": "openai-templates@openai-curated-remote",
+      "version": "0.1.1"
+    },
+    {
+      "name": "sites",
+      "id": "sites@openai-curated-remote",
+      "version": "0.1.75"
+    },
+    {
+      "name": "plugin-management",
+      "id": "plugin-management@openai-curated-remote",
+      "version": "0.1.0"
+    },
+    {
+      "name": "work-pets",
+      "id": "work-pets@openai-curated-remote",
+      "version": "0.1.6"
+    }
+  ],
+  "mcp_names": [
+    "graft",
+    "reticle",
+    "codebase-memory-mcp",
+    "ouroboros",
+    "openaiDeveloperDocs"
+  ],
+  "mcp_packages": {
+    "graft": "0.18.0",
+    "reticle": "3.5.0",
+    "ouroboros": "0.55.4"
+  },
+  "profiles": {
+    "nas": {
+      "docker_host": "tcp://127.0.0.1:2375",
+      "model": "gpt-6-luna"
+    },
+    "wsl": {
+      "docker_host": "existing local configuration",
+      "model": "user choice"
+    },
+    "windows-desktop": {
+      "tools": "Run Linux MCP tools in WSL; desktop-only app tools stay client-provided"
+    }
+  }
+}

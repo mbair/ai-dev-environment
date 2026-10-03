@@ -1,0 +1,4 @@
+interface:
+  display_name: "Canvas Design"
+  short_description: "Create polished visual art and poster assets"
+  default_prompt: "Use $canvas-design to create a polished visual artwork or poster as a PNG or PDF."

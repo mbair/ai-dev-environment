@@ -1,0 +1,4 @@
+interface:
+  display_name: "Action Feedback UX"
+  short_description: "Feedback for UI mutation actions"
+  default_prompt: "Improve this UI flow so save, reset, and other user-triggered changes have clear loading, success, error, and dirty-state feedback."

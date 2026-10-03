@@ -1,0 +1,247 @@
+[
+  {
+    "skill": "action-feedback-ux",
+    "source": "wsl-user",
+    "entry_sha256": "73944dd5ad25905dda57abbba84becc18e4aa1833e93004d70bab5283ca47821"
+  },
+  {
+    "skill": "angular-component-safe-edits",
+    "source": "wsl-user",
+    "entry_sha256": "4730093f73b12dec31d06f8d692b79ffc58a7390fe8d6fc9c424f6dc4e939057"
+  },
+  {
+    "skill": "angular-developer",
+    "source": "wsl-user",
+    "entry_sha256": "98e0c60847470a97d2b2a6c61ebbcf4e9f6a37b4283a0f683d5dd6e1e1979b64"
+  },
+  {
+    "skill": "angular-official-best-practices",
+    "source": "wsl-user",
+    "entry_sha256": "c89e93e9b6fec73efb9687886602a3c381d3fa64a8647e0774bb004c2992be1b"
+  },
+  {
+    "skill": "brand-website-storytelling",
+    "source": "wsl-user",
+    "entry_sha256": "502a8b5544d21421a9d5fb7c189521528ab11dfaadcf7ad109b188cdbba22d18"
+  },
+  {
+    "skill": "changelog-generator",
+    "source": "wsl-user",
+    "entry_sha256": "0fdde1fc7ed062a82fd7ba98057f5d471c5d1905bfe2ddc4eeb213450cb00c18"
+  },
+  {
+    "skill": "codebase-migrate",
+    "source": "wsl-user",
+    "entry_sha256": "30f03cd88236d911fdd0090e00f4479edf620d2a35f830c13262caa265ab9aeb"
+  },
+  {
+    "skill": "commit-message-preferences",
+    "source": "wsl-user",
+    "entry_sha256": "98eaef51a51c2615a3804bb043149237423cdb552c8489a27fb9b85807172b39"
+  },
+  {
+    "skill": "demo-presentation-defaults",
+    "source": "wsl-user",
+    "entry_sha256": "48180dd927ef5f5fedb2f284a2c791c91cf61eba48db7d0e802f2ff2f7f5382c"
+  },
+  {
+    "skill": "mobile-experience-refinement",
+    "source": "wsl-user",
+    "entry_sha256": "6dd56697d8ec25c2ebf4d43bf1d8c86b55fec62bce4bbedf85ee9bc3f3a13373"
+  },
+  {
+    "skill": "nfcreserve-i18n-safe-edits",
+    "source": "wsl-user",
+    "entry_sha256": "fb6cb317e3b6d30a866722163e41b9a5010e80de75754b6a726c96821298b49b"
+  },
+  {
+    "skill": "ouroboros-auto",
+    "source": "wsl-user",
+    "entry_sha256": "060e3a17953373da54a0c6d3f2f980bbb09faf119194e4a7191c9d7eb25cb536"
+  },
+  {
+    "skill": "ouroboros-brownfield",
+    "source": "wsl-user",
+    "entry_sha256": "9c9477269fdd16e3d85479b551a4ad201224172200ea0878f3fa2fcf5c94c308"
+  },
+  {
+    "skill": "ouroboros-cancel",
+    "source": "wsl-user",
+    "entry_sha256": "3e9eede8dda529b961ef833148c4993c955f41a859e578d6aacaea6668ccdc4c"
+  },
+  {
+    "skill": "ouroboros-config",
+    "source": "wsl-user",
+    "entry_sha256": "2c057ffe60c34328395da1ae01bec997482f576502c5210badc642e54a488234"
+  },
+  {
+    "skill": "ouroboros-evaluate",
+    "source": "wsl-user",
+    "entry_sha256": "f3a8d30d5cf09a36a6d81cd1221a2c73f51b537891103508a4ff9663f59e99bb"
+  },
+  {
+    "skill": "ouroboros-evolve",
+    "source": "wsl-user",
+    "entry_sha256": "55c619e3531da7ea290314979b44953466e273b0c25840f1875c994b5f7c2bf9"
+  },
+  {
+    "skill": "ouroboros-help",
+    "source": "wsl-user",
+    "entry_sha256": "c865ef3022b7f9263b6734771092a34d8a401385161d7c4bc4606b6e774764f5"
+  },
+  {
+    "skill": "ouroboros-interview",
+    "source": "wsl-user",
+    "entry_sha256": "404cf415e3ff30103afe1fd5c424553f9860bf3e8bfbc2ce5605b3bd01fcf719"
+  },
+  {
+    "skill": "ouroboros-ooo",
+    "source": "wsl-user",
+    "entry_sha256": "d1f5855f8c343c128cd86cdd2bed5925a9f1e8ee34385cf423477f268a35b6c5"
+  },
+  {
+    "skill": "ouroboros-pm",
+    "source": "wsl-user",
+    "entry_sha256": "b11cf575acb05f633d50e20d909e273d838199a8a9c861aca07bdf832e2799d4"
+  },
+  {
+    "skill": "ouroboros-publish",
+    "source": "wsl-user",
+    "entry_sha256": "d6469d708938bacc27b758b405c2590d77a775e7d3fc982e87c6a49d5dcf5b03"
+  },
+  {
+    "skill": "ouroboros-qa",
+    "source": "wsl-user",
+    "entry_sha256": "11cd687ab582d76ba39bbdd1062e39551dce893b05c15e2456ac674b91e2baff"
+  },
+  {
+    "skill": "ouroboros-ralph",
+    "source": "wsl-user",
+    "entry_sha256": "c44e47021a8dca63e3a8c93aa631e01915354d95b267f3a7e34f3660ae1a5fa5"
+  },
+  {
+    "skill": "ouroboros-resume-session",
+    "source": "wsl-user",
+    "entry_sha256": "2b19252b0931d6685bfa81fea2bc568ee5d7a2fa395654c9358b3e9e7587fb29"
+  },
+  {
+    "skill": "ouroboros-run",
+    "source": "wsl-user",
+    "entry_sha256": "936bb2699d81c1199f4f6f0711efe09cd615b9d6d53aee60fac1ba6c5ae68b3a"
+  },
+  {
+    "skill": "ouroboros-seed",
+    "source": "wsl-user",
+    "entry_sha256": "4ebbb348638450ad2a1fd750658e9b7a14a51cc2d522169be96dd4970c3fff8b"
+  },
+  {
+    "skill": "ouroboros-setup",
+    "source": "wsl-user",
+    "entry_sha256": "c9bebbb5d16673734760ccb1312783ea1a2f8dfdd0f8730a2fa28d3a493ae721"
+  },
+  {
+    "skill": "ouroboros-status",
+    "source": "wsl-user",
+    "entry_sha256": "fc6631532997d4f156dcc203d8f68df644777175ddd4131938c7dce9d5ef0a8c"
+  },
+  {
+    "skill": "ouroboros-tutorial",
+    "source": "wsl-user",
+    "entry_sha256": "2cb8018fd454202e01a2601379d43bf676c328be27f9e8962cd3c6c56d997ee1"
+  },
+  {
+    "skill": "ouroboros-unstuck",
+    "source": "wsl-user",
+    "entry_sha256": "40c3c561be9ea8a5deccffd2fb95254feeb63ec7dabc23a8e6e89f27f9d758df"
+  },
+  {
+    "skill": "ouroboros-update",
+    "source": "wsl-user",
+    "entry_sha256": "353d36929ecbd0f5f38e7c721d4ca97ac67dbf9609b9267ce4ef7f8c57ecb6a1"
+  },
+  {
+    "skill": "ouroboros-welcome",
+    "source": "wsl-user",
+    "entry_sha256": "ae72424f2645185e43b3cedc559fc782b8c38ea269131e5b8872d9bcfc5d3c49"
+  },
+  {
+    "skill": "paperjsx",
+    "source": "wsl-user",
+    "entry_sha256": "80fb44c66726a16a2bd9dc2d34c41b6751623f67e56678abae003d9391aa17c0"
+  },
+  {
+    "skill": "premium-delivery-standard",
+    "source": "wsl-user",
+    "entry_sha256": "07bfe839fa0553668f01688a82baffebc700dfe74e0d57f816335b709288e7d6"
+  },
+  {
+    "skill": "primeng-accessibility-review",
+    "source": "wsl-user",
+    "entry_sha256": "6ddcc5b667c69bb20c63d30da71a35b2fbdd722abc063b81d2db7c36039751c8"
+  },
+  {
+    "skill": "primeng-component-guidance",
+    "source": "wsl-user",
+    "entry_sha256": "a1112c10e0d89dc36169ff96bce75ba31438e22fe6c70629fe91a43c54e5d286"
+  },
+  {
+    "skill": "primeng-modern-migration",
+    "source": "wsl-user",
+    "entry_sha256": "255a00a55327627cbabd573011b2d0bf26736851261d3d225a344a565212519c"
+  },
+  {
+    "skill": "webapp-testing",
+    "source": "wsl-user",
+    "entry_sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2"
+  },
+  {
+    "skill": "evaluate-skill",
+    "source": "agents-user",
+    "entry_sha256": "14911ba6094f71a21c228db291cc4b0a0042887f181fd636d8157c4841d356a1"
+  },
+  {
+    "skill": "find-skills",
+    "source": "agents-user",
+    "entry_sha256": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f"
+  },
+  {
+    "skill": "grill-skill",
+    "source": "agents-user",
+    "entry_sha256": "ccbeb43850550f91f013a36c4889e14cc341234c97299e597aba0ee1f101cbc8"
+  },
+  {
+    "skill": "install-anti-slop",
+    "source": "agents-user",
+    "entry_sha256": "2cb88a6ec0c50d9456c695d3980a29e8b554bfab2a28cc8719ca7fa7a9e05ac5"
+  },
+  {
+    "skill": "reticle",
+    "source": "agents-user",
+    "entry_sha256": "3fac319f7f2a382a6c6cb38f437921f82ee61492b49f6ada0de41910184e2300"
+  },
+  {
+    "skill": "canvas-design",
+    "source": "windows-user",
+    "entry_sha256": "998bc5c43e1ab5bd43d9dddeebf73da187aaeed79e5abc175333d46ef290e30c"
+  },
+  {
+    "skill": "design-engineering",
+    "source": "windows-user",
+    "entry_sha256": "80a074aaec1d1cde77edbcc37914deb194c81cf0f62b424879afb645dc83c6e0"
+  },
+  {
+    "skill": "playwright",
+    "source": "windows-user",
+    "entry_sha256": "c52cc95125b720cdc3c9829b0294c2752d4ae9b85a5282aa153da8bba929af87"
+  },
+  {
+    "skill": "screenshot",
+    "source": "windows-user",
+    "entry_sha256": "2fb7b2d8010517699b1a44f1d587d028b9dad2e2770366d2052238d46c9a9e36"
+  },
+  {
+    "skill": "speech",
+    "source": "windows-user",
+    "entry_sha256": "e71cd464d98745e8d51a6cc3b59630a34dbd2553e9db9cdf8dc59247abc754f4"
+  }
+]
