@@ -18,3 +18,7 @@ Codex's bundled system skills and remote/account plugin caches are not vendored.
 ## Trail of Bits property-based testing
 
 `property-based-testing` by Trail of Bits is imported from `trailofbits/skills` at commit `82fe8226252622fa807643bdca1710901198553a`, path `plugins/property-based-testing/skills/property-based-testing`, under CC-BY-SA-4.0. The license and attribution are retained in its `LICENSE` and `NOTICE.md`. The Codex adaptation removes only `effort: low` from the entrypoint; the unmodified original is retained as `UPSTREAM-SKILL.md`. The adaptation remains under CC-BY-SA-4.0. Other references and assets are unchanged.
+
+## Anthropic MCP builder
+
+`mcp-builder` is imported unchanged from `anthropics/skills` at commit `8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4`, path `skills/mcp-builder`. Copyright 2026 Anthropic, PBC.; Apache-2.0. The upstream `LICENSE.txt`, reference documentation and optional evaluation helpers are retained. No full Anthropic plugin or credentials are included.

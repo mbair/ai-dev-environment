@@ -289,5 +289,15 @@
     ],
     "upstream_entry_sha256": "9448cacb65c6237a7c22dc59602667177ecae405524079ae9ff92240590b995a",
     "entry_sha256": "c53e9a19586dab94c48a806d9353878b2a1afb476a79f235e09001398b2ffb7d"
+  },
+  {
+    "skill": "mcp-builder",
+    "source": "github-upstream",
+    "repository": "https://github.com/anthropics/skills",
+    "path": "skills/mcp-builder",
+    "commit": "8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4",
+    "license": "Apache-2.0",
+    "author": "Anthropic, PBC.",
+    "entry_sha256": "0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295"
   }
 ]

@@ -2,7 +2,7 @@
 
 Private baseline for mbair's Codex development on WSL, NAS and future VPS hosts. Source of truth: this Git repository, not a live shared NAS folder.
 
-The package contains 59 user SKILL.md definitions in 54 top-level folders, with their scripts, references, assets and existing license files. It includes Angular, PrimeNG, Ouroboros, Reticle, review, testing and design workflows. Codex-owned `.system` skills come from Codex itself. Skill origins are recorded in `skill-sources.json`; external plugin IDs and observed versions are in `environment.json`.
+The package contains 60 user SKILL.md definitions in 55 top-level folders, with their scripts, references, assets and existing license files. It includes Angular, PrimeNG, Ouroboros, Reticle, review, testing and design workflows. Codex-owned `.system` skills come from Codex itself. Skill origins are recorded in `skill-sources.json`; external plugin IDs and observed versions are in `environment.json`.
 
 ## Install on Linux / WSL / NAS
 
@@ -87,3 +87,7 @@ Both are discoverable when their described tasks arise. Original instructions an
 ## Property-based testing
 
 `$property-based-testing` from Trail of Bits helps select meaningful invariants, generate constrained inputs, review weak or vacuous tests, and classify minimized failing inputs. It supports JavaScript/TypeScript through fast-check as well as other languages. The skill is installed as guidance only; no application dependencies are added. The original resources, attribution and CC-BY-SA-4.0 license are preserved. The sole Codex adaptation removes the Claude-specific `effort: low` field; the original entrypoint is in `UPSTREAM-SKILL.md`, and both entrypoint hashes are recorded in `skill-sources.json`. Upstream model-specific eval reports are retained as upstream documentation, not as evidence of local Codex effectiveness.
+
+## Building MCP integrations
+
+`$mcp-builder` from Anthropic provides guidance for custom TypeScript or Python MCP servers, tool schemas, pagination, transport selection, testing and evaluations. The complete upstream skill, references, helper scripts and Apache-2.0 license are retained unchanged at a pinned commit. Installation adds guidance only and does not configure or start an MCP server. The optional evaluation harness uses the Anthropic API and requires separate dependencies, credentials and authorized execution; it was not run during installation. Use current protocol and SDK documentation as the skill instructs, rather than treating its SDK or model examples as current version pins.
