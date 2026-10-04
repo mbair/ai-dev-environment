@@ -54,6 +54,23 @@ python3 scripts/environment.py configure-mcp --apply
 
 The command preserves all existing and explicitly disabled servers, backs up a config before adding entries, and refuses to inject Linux executables into a Windows config. For the desktop profile, keep the existing WSL wrappers or configure equivalent Windows/WSL wrappers explicitly. Preserve existing working MCP definitions. Configure missing entries with `codex mcp add` using the pinned package arguments in that file; start Codex from the target repository so graph tools inspect the right project. Reticle always runs via npx. `codebase-memory-mcp` 0.8.1 and `uv` 0.11.14 are external executables checked by doctor; this repository does not distribute their binaries. Provision the appropriate upstream build on each platform.
 
+### OpenAI documentation
+
+The portable MCP baseline already includes `openaiDeveloperDocs` at `https://developers.openai.com/mcp`. Configure it for each Codex user/runtime that you use (Windows Desktop, WSL and the NAS worker); the project file location does not determine which runtime needs the connection. The Codex-owned `openai-docs` skill is supplied by Codex and is not vendored into this user skill collection.
+
+To make documentation lookup automatic, merge the following block into `${CODEX_HOME:-$HOME/.codex}/AGENTS.md` on each runtime, preserving existing instructions and avoiding duplicate blocks. `setup.sh` does not install this instruction block automatically.
+
+```markdown
+<!-- openai-docs:start -->
+## OpenAI documentation
+For questions or development involving the OpenAI API, ChatGPT, or Codex, use the openaiDeveloperDocs MCP server to search and read official documentation before relying on memory. Do this without requiring an explicit request, and cite the relevant documentation when explaining OpenAI behavior.
+<!-- openai-docs:end -->
+```
+
+Check the configured server with `codex mcp get openaiDeveloperDocs`, then verify access with an actual documentation search in a new Codex session. Configuration alone does not prove connectivity. This baseline targets Codex; it does not configure Claude Code or Cursor.
+
+Official setup reference: [OpenAI Docs MCP](https://developers.openai.com/learn/docs-mcp).
+
 Remote/account plugin versions in `environment.json` record the audited baseline. Account-managed updates may change them; doctor reports a mismatch instead of pretending those packages can be locked locally. PrimeNG's source marketplace is `https://github.com/primefaces/primeui-plugins.git`. Do not copy plugin caches, login state, token files or sessions between machines.
 
 NAS uses `DOCKER_HOST=tcp://127.0.0.1:2375` for the approved separate test daemon. This profile must not select the NAS host Docker socket. The NAS worker currently uses GPT-6-Luna by user choice; shared tools don't imply identical quality across models.
