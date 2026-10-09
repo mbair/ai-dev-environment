@@ -2,6 +2,8 @@
   "plugins/mbair-engineering/.codex-plugin/plugin.json": "3d10183413ef7f4db908ade9cb1ecb549873a396d142edc1a1dcb232cd795a4e",
   "plugins/mbair-engineering/skills/action-feedback-ux/SKILL.md": "73944dd5ad25905dda57abbba84becc18e4aa1833e93004d70bab5283ca47821",
   "plugins/mbair-engineering/skills/action-feedback-ux/agents/openai.yaml": "9f03370396d83c1d3b96e214170be61a0a9022016dbfbceaa42e7976488ebb09",
+  "plugins/mbair-engineering/skills/andrej-karpathy-skill/LICENSE": "7b02739d74734dc5d1e79492c5f59b80bbb3ce2d4316da06edc63e07cd6c1023",
+  "plugins/mbair-engineering/skills/andrej-karpathy-skill/SKILL.md": "455ce975830d25b38f29d93d215815cb481a1c064139766ef7835e6043ecb10d",
   "plugins/mbair-engineering/skills/angular-component-safe-edits/SKILL.md": "4730093f73b12dec31d06f8d692b79ffc58a7390fe8d6fc9c424f6dc4e939057",
   "plugins/mbair-engineering/skills/angular-developer/SKILL.md": "98e0c60847470a97d2b2a6c61ebbcf4e9f6a37b4283a0f683d5dd6e1e1979b64",
   "plugins/mbair-engineering/skills/angular-developer/references/angular-animations.md": "f21b798ed93e27318527ef7e74e63ef8c71cb74ff2b010d70dbb429883f0dbd0",

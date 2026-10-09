@@ -299,5 +299,14 @@
     "license": "Apache-2.0",
     "author": "Anthropic, PBC.",
     "entry_sha256": "0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295"
+  },
+  {
+    "skill": "andrej-karpathy-skill",
+    "source": "github-upstream",
+    "repository": "https://github.com/duolahypercho/andrej-karpathy-skills",
+    "path": "skills/andrej-karpathy-skill",
+    "commit": "c2771d3ad0fd46f71d06fd9853cd6b0ad987737f",
+    "license": "MIT",
+    "entry_sha256": "455ce975830d25b38f29d93d215815cb481a1c064139766ef7835e6043ecb10d"
   }
 ]
