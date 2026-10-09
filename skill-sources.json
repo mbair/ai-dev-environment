@@ -308,5 +308,10 @@
     "commit": "c2771d3ad0fd46f71d06fd9853cd6b0ad987737f",
     "license": "MIT",
     "entry_sha256": "455ce975830d25b38f29d93d215815cb481a1c064139766ef7835e6043ecb10d"
+  },
+  {
+    "skill": "nfcreserve-finance-settlement-checks",
+    "source": "wsl-user",
+    "entry_sha256": "21206318c750d4663cfb8782e60d39df7983349f5661d884213acde94094ae0f"
   }
 ]

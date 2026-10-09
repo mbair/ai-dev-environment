@@ -161,6 +161,8 @@
   "plugins/mbair-engineering/skills/mcp-builder/scripts/requirements.txt": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7",
   "plugins/mbair-engineering/skills/mobile-experience-refinement/SKILL.md": "6dd56697d8ec25c2ebf4d43bf1d8c86b55fec62bce4bbedf85ee9bc3f3a13373",
   "plugins/mbair-engineering/skills/mobile-experience-refinement/agents/openai.yaml": "bb930103fb2903730d5624e88b2bfb4fb68e7dbcf030fd989cd67fbc0042259f",
+  "plugins/mbair-engineering/skills/nfcreserve-finance-settlement-checks/SKILL.md": "21206318c750d4663cfb8782e60d39df7983349f5661d884213acde94094ae0f",
+  "plugins/mbair-engineering/skills/nfcreserve-finance-settlement-checks/agents/openai.yaml": "2dc800c2834ae9d19949a1a819dda166d6f3f0939da09db72ded31e70271fa09",
   "plugins/mbair-engineering/skills/nfcreserve-i18n-safe-edits/SKILL.md": "fb6cb317e3b6d30a866722163e41b9a5010e80de75754b6a726c96821298b49b",
   "plugins/mbair-engineering/skills/nfcreserve-i18n-safe-edits/agents/openai.yaml": "bfe018f4b6a76c87c953a31ad78e4be99879d8ef8c63d5f76d580b657b018ea5",
   "plugins/mbair-engineering/skills/nfcreserve-i18n-safe-edits/scripts/validate_i18n_keys.py": "11073d1f0ce2cc852c2f67b7a758346633fd4652963da1cde1d42b5b503441b8",
