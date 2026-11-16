@@ -155,6 +155,12 @@ For a landing page, establish one offer, one audience, and one primary action. W
 
 Use real proof or mark missing proof as pending. Do not create fake testimonials, round metrics, logo walls, awards, or claims. Use meaningful CTA verbs, keep competing actions out of the first viewport, and add appropriate title, description, social metadata, semantic landmarks, skip navigation, alt text, and form validation when the page ships.
 
+## Dashboard and data views
+
+For dashboards, KPI tiles, charts, and data-heavy admin screens, read [references/dashboard-design.md](references/dashboard-design.md) before designing or auditing the affected surface. It covers comparison periods, missing and stale data, financial labels, chart selection, attention, and independent numerical checks.
+
+Use the existing design system and domain definitions. Keep explanations needed for a decision visible; use tooltips for supplemental detail. In audits, prioritize misleading values and comparisons before visual polish.
+
 ## 10. Review and verification
 
 Inspect the rendered result, not only the source. For a browser-rendered artifact, check the primary flow at the relevant viewport sizes and states; run executable browser acceptance or visual regression when the user explicitly requests QA/acceptance or the project provides a safe, cheap harness.
